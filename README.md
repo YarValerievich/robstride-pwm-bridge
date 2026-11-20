@@ -11,7 +11,7 @@
 ```mermaid
 graph LR
     subgraph RC_System [Система радиоуправления]
-        TX[RC Передатчик\nHotRC DS800] -- "2.4GHz RF" --> RX[RC Приемник\nHotRC F08A]
+        TX[RC Передатчик\nHotRC DS800] -- "2.4GHz" --> RX[RC Приемник\nHotRC F08A]
     end
 
     subgraph Bridge [PWM-to-CAN Мост\nSTM32F103C8]
