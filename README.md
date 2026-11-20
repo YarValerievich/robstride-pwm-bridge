@@ -21,8 +21,8 @@ graph LR
     end
 
     subgraph Motor_System [Система привода]
-        CAN_PHY[CAN Трансивер\nTJA1050 / SN65HVD230]
-        MOTOR[Robstride RS00 /\nCyberGear Motor]
+        CAN_PHY[CAN Трансивер\nTJA1050]
+        MOTOR[Robstride RS00]
         CAN_PHY -- "CAN_H / CAN_L\n1 Mbps" --> MOTOR
     end
 
